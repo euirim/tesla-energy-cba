@@ -5,10 +5,13 @@
   <evaluateDefaultValues active="0"/>
   <layer-tree-group expanded="1" checked="Qt::PartiallyChecked" name="">
     <customproperties/>
-    <layer-tree-layer expanded="0" providerKey="ogr" checked="Qt::Unchecked" id="cb_2017_us_zcta510_500k_copy20181208013117687" source="/home/euirim/Projects/study/tesla-energy-cba/code/data/cb_2017_us_zcta510_500k" name="cb_2017_us_zcta510_500k copy">
+    <layer-tree-layer expanded="1" providerKey="ogr" checked="Qt::Checked" id="cb_2017_us_state_500k20181208010142028" source="/home/euirim/Projects/study/tesla-energy-cba/code/data/cb_2017_us_state_500k|layerid=0|subset=&quot;STUSPS&quot; != 'AS' AND &quot;STUSPS&quot; != 'GU' AND &quot;STUSPS&quot; != 'DC' AND &quot;STUSPS&quot; != 'PR' AND &quot;STUSPS&quot; != 'MP' AND &quot;STUSPS&quot; != 'VI'" name="cb_2017_us_state_500k">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer expanded="1" providerKey="ogr" checked="Qt::Checked" id="cb_2017_us_state_500k20181208010142028" source="/home/euirim/Projects/study/tesla-energy-cba/code/data/cb_2017_us_state_500k|layerid=0|subset=&quot;STUSPS&quot; != 'AS' AND &quot;STUSPS&quot; != 'GU' AND &quot;STUSPS&quot; != 'DC' AND &quot;STUSPS&quot; != 'PR' AND &quot;STUSPS&quot; != 'MP' AND &quot;STUSPS&quot; != 'VI'" name="cb_2017_us_state_500k">
+    <layer-tree-layer expanded="0" providerKey="ogr" checked="Qt::Checked" id="cb_2017_us_zcta510_500k20181208155255792" source="/home/euirim/Projects/study/tesla-energy-cba/code/data/cb_2017_us_zcta510_500k" name="cb_2017_us_zcta510_500k">
+      <customproperties/>
+    </layer-tree-layer>
+    <layer-tree-layer expanded="0" providerKey="ogr" checked="Qt::Unchecked" id="cb_2017_us_zcta510_500k_copy20181208013117687" source="/home/euirim/Projects/study/tesla-energy-cba/code/data/cb_2017_us_zcta510_500k" name="cb_2017_us_zcta510_500k copy">
       <customproperties/>
     </layer-tree-layer>
   </layer-tree-group>
@@ -16,10 +19,10 @@
   <mapcanvas>
     <units>meters</units>
     <extent>
-      <xmin>-2719206.16787985386326909</xmin>
-      <ymin>-1859981.85219559213146567</ymin>
-      <xmax>2576778.35500925360247493</xmax>
-      <ymax>1797533.36982980417087674</ymax>
+      <xmin>-2152835.82971227960661054</xmin>
+      <ymin>-1325497.99390815384685993</ymin>
+      <xmax>1677385.21068258071318269</xmax>
+      <ymax>1301808.04998712753877044</ymax>
     </extent>
     <rotation>0</rotation>
     <projections>1</projections>
@@ -37,6 +40,7 @@
     </destinationsrs>
     <rendermaptile>0</rendermaptile>
     <layer_coordinate_transform_info>
+      <layer_coordinate_transform destAuthId="EPSG:102004" srcAuthId="EPSG:4269" srcDatumTransform="-1" destDatumTransform="-1" layerid="cb_2017_us_zcta510_500k20181208155255792"/>
       <layer_coordinate_transform destAuthId="EPSG:102004" srcAuthId="EPSG:4269" srcDatumTransform="-1" destDatumTransform="-1" layerid="cb_2017_us_nation_5m20181208004803610"/>
       <layer_coordinate_transform destAuthId="EPSG:102004" srcAuthId="EPSG:4269" srcDatumTransform="-1" destDatumTransform="-1" layerid="cb_2017_us_zcta510_500k20181208151143717"/>
       <layer_coordinate_transform destAuthId="EPSG:102004" srcAuthId="EPSG:4269" srcDatumTransform="-1" destDatumTransform="-1" layerid="cb_2017_us_state_500k20181208005119319"/>
@@ -51,21 +55,27 @@
     <custom-order enabled="0">
       <item>cb_2017_us_state_500k20181208010142028</item>
       <item>cb_2017_us_zcta510_500k_copy20181208013117687</item>
+      <item>cb_2017_us_zcta510_500k20181208155255792</item>
     </custom-order>
   </layer-tree-canvas>
   <legend updateDrawingOrder="true">
-    <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="cb_2017_us_zcta510_500k copy" showFeatureCount="0">
-      <filegroup open="false" hidden="false">
-        <legendlayerfile isInOverview="0" layerid="cb_2017_us_zcta510_500k_copy20181208013117687" visible="0"/>
-      </filegroup>
-    </legendlayer>
     <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="cb_2017_us_state_500k" showFeatureCount="0">
       <filegroup open="true" hidden="false">
         <legendlayerfile isInOverview="0" layerid="cb_2017_us_state_500k20181208010142028" visible="1"/>
       </filegroup>
     </legendlayer>
+    <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="cb_2017_us_zcta510_500k" showFeatureCount="0">
+      <filegroup open="false" hidden="false">
+        <legendlayerfile isInOverview="0" layerid="cb_2017_us_zcta510_500k20181208155255792" visible="1"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="cb_2017_us_zcta510_500k copy" showFeatureCount="0">
+      <filegroup open="false" hidden="false">
+        <legendlayerfile isInOverview="0" layerid="cb_2017_us_zcta510_500k_copy20181208013117687" visible="0"/>
+      </filegroup>
+    </legendlayer>
   </legend>
-  <Composer title="paper_print" visible="1">
+  <Composer title="paper_print" visible="0">
     <Composition resizeToContentsMarginLeft="0" snapping="0" showPages="1" guidesVisible="1" resizeToContentsMarginTop="0" worldFileMap="{5698f9a6-1a54-4585-946a-8062305c6575}" alignmentSnap="1" printResolution="300" paperWidth="297" gridVisible="0" snapGridOffsetX="0" smartGuides="1" snapGridOffsetY="0" resizeToContentsMarginRight="0" snapTolerancePixels="5" printAsRaster="0" generateWorldFile="0" paperHeight="210" numPages="1" snapGridResolution="10" resizeToContentsMarginBottom="0">
       <symbol alpha="1" clip_to_extent="1" type="fill" name="">
         <layer pass="0" class="SimpleFill" locked="0">
@@ -85,7 +95,7 @@
       <ComposerLabel valign="32" marginX="1" marginY="1" labelText="By Euirim Choi, Satya Krishnan, Davis Larkin, Wilson Wang" htmlState="0" halign="1">
         <LabelFont description="Ubuntu,10,-1,5,25,0,0,0,0,0" style="Light"/>
         <FontColor red="235" blue="242" green="237"/>
-        <ComposerItem pagey="193.962" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="10.4063" y="193.962" visibility="1" zValue="16" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="159.818" outlineWidth="0.3" excludeFromExports="0" uuid="{e25b9fff-11c0-4fbf-8b39-0858f5366365}" height="6.48435" itemRotation="0" frame="false" pagex="10.4063">
+        <ComposerItem pagey="193.962" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="true" x="10.4063" y="193.962" visibility="1" zValue="16" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="159.818" outlineWidth="0.3" excludeFromExports="0" uuid="{e25b9fff-11c0-4fbf-8b39-0858f5366365}" height="6.48435" itemRotation="0" frame="false" pagex="10.4063">
           <FrameColor alpha="255" red="0" blue="0" green="0"/>
           <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
           <customproperties/>
@@ -94,7 +104,7 @@
       <ComposerLabel valign="32" marginX="1" marginY="1" labelText="Cost &#xa;Effectiveness" htmlState="0" halign="2">
         <LabelFont description="Ubuntu,8,-1,5,25,0,0,0,0,0" style="Light"/>
         <FontColor red="255" blue="255" green="255"/>
-        <ComposerItem pagey="140.41" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="250.943" y="140.41" visibility="1" zValue="16" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="38.0413" outlineWidth="0.3" excludeFromExports="0" uuid="{5eff012e-b193-4033-b816-667844155f0f}" height="8.16144" itemRotation="0" frame="false" pagex="250.943">
+        <ComposerItem pagey="140.41" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="true" x="250.943" y="140.41" visibility="1" zValue="16" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="38.0413" outlineWidth="0.3" excludeFromExports="0" uuid="{5eff012e-b193-4033-b816-667844155f0f}" height="8.16144" itemRotation="0" frame="false" pagex="250.943">
           <FrameColor alpha="255" red="0" blue="0" green="0"/>
           <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
           <customproperties/>
@@ -103,7 +113,7 @@
       <ComposerLabel valign="32" marginX="1" marginY="1" labelText="0" htmlState="0" halign="2">
         <LabelFont description="Ubuntu,10,-1,5,63,0,0,0,0,0" style="Medium"/>
         <FontColor red="255" blue="255" green="255"/>
-        <ComposerItem pagey="172.92" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="240.379" y="172.92" visibility="1" zValue="16" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="38.0413" outlineWidth="0.3" excludeFromExports="0" uuid="{528bc6aa-76a6-457f-af88-38c7672114b0}" height="6" itemRotation="0" frame="false" pagex="240.379">
+        <ComposerItem pagey="172.92" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="true" x="240.379" y="172.92" visibility="1" zValue="16" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="38.0413" outlineWidth="0.3" excludeFromExports="0" uuid="{528bc6aa-76a6-457f-af88-38c7672114b0}" height="6" itemRotation="0" frame="false" pagex="240.379">
           <FrameColor alpha="255" red="0" blue="0" green="0"/>
           <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
           <customproperties/>
@@ -112,7 +122,7 @@
       <ComposerLabel valign="32" marginX="1" marginY="1" labelText="-" htmlState="0" halign="2">
         <LabelFont description="Ubuntu,12,-1,5,63,0,0,0,0,0" style="Medium"/>
         <FontColor red="255" blue="255" green="255"/>
-        <ComposerItem pagey="195.42" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="240.379" y="195.42" visibility="1" zValue="16" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="38.0413" outlineWidth="0.3" excludeFromExports="0" uuid="{036295d6-0132-457e-b621-42ce9cb2133c}" height="6" itemRotation="0" frame="false" pagex="240.379">
+        <ComposerItem pagey="195.42" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="true" x="240.379" y="195.42" visibility="1" zValue="16" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="38.0413" outlineWidth="0.3" excludeFromExports="0" uuid="{036295d6-0132-457e-b621-42ce9cb2133c}" height="6" itemRotation="0" frame="false" pagex="240.379">
           <FrameColor alpha="255" red="0" blue="0" green="0"/>
           <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
           <customproperties/>
@@ -121,7 +131,7 @@
       <ComposerLabel valign="32" marginX="1" marginY="1" labelText="+" htmlState="0" halign="2">
         <LabelFont description="Ubuntu,12,-1,5,63,0,0,0,0,0" style="Medium"/>
         <FontColor red="255" blue="255" green="255"/>
-        <ComposerItem pagey="149.572" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="240.379" y="149.572" visibility="1" zValue="8" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="38.0413" outlineWidth="0.3" excludeFromExports="0" uuid="{235d3667-9c9c-483b-941d-f56bf341cc6f}" height="6" itemRotation="0" frame="false" pagex="240.379">
+        <ComposerItem pagey="149.572" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="true" x="240.379" y="149.572" visibility="1" zValue="8" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="38.0413" outlineWidth="0.3" excludeFromExports="0" uuid="{235d3667-9c9c-483b-941d-f56bf341cc6f}" height="6" itemRotation="0" frame="false" pagex="240.379">
           <FrameColor alpha="255" red="0" blue="0" green="0"/>
           <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
           <customproperties/>
@@ -130,29 +140,29 @@
       <ComposerLabel valign="32" marginX="1" marginY="1" labelText="Cost-effectiveness of Tesla Consumer Energy Storage Without Incentives" htmlState="0" halign="4">
         <LabelFont description="Ubuntu,22,-1,5,63,0,0,0,0,0" style="Medium"/>
         <FontColor red="235" blue="242" green="237"/>
-        <ComposerItem pagey="8.51033" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="9.36773" y="8.51033" visibility="1" zValue="7" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="278.265" outlineWidth="0.3" excludeFromExports="0" uuid="{33eff0fe-1a0a-4acc-9009-73f7d6a5c960}" height="15.1301" itemRotation="0" frame="false" pagex="9.36773">
+        <ComposerItem pagey="8.51033" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="true" x="9.36773" y="8.51033" visibility="1" zValue="7" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="278.265" outlineWidth="0.3" excludeFromExports="0" uuid="{33eff0fe-1a0a-4acc-9009-73f7d6a5c960}" height="15.1301" itemRotation="0" frame="false" pagex="9.36773">
           <FrameColor alpha="255" red="0" blue="0" green="0"/>
           <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
           <customproperties/>
         </ComposerItem>
       </ComposerLabel>
       <ComposerMap followPreset="false" mapRotation="0" keepLayerSet="false" followPresetName="" id="2" previewMode="Cache" drawCanvasItems="true">
-        <Extent ymin="-292011.10045450867619365" xmin="-6517439.62189445924013853" ymax="537398.92642907658591866" xmax="-5848684.01696430798619986"/>
+        <Extent ymin="-292011.10045450867619365" xmin="-6517439.62189445924013853" ymax="537398.9264290762366727" xmax="-5848684.01696430798619986"/>
         <LayerSet/>
         <Grid/>
         <AtlasMap scalingMode="2" atlasDriven="0" margin="0.10000000000000001"/>
-        <ComposerItem pagey="160.42" page="1" id="" lastValidViewScaleFactor="2.31327" positionMode="0" positionLock="false" x="81.6511" y="160.42" visibility="1" zValue="6" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="29.8332" outlineWidth="0.3" excludeFromExports="0" uuid="{a38c45e5-792b-40e6-b6ed-6943ba82fcbc}" height="37" itemRotation="0" frame="false" pagex="81.6511">
+        <ComposerItem pagey="153.42" page="1" id="" lastValidViewScaleFactor="2.31327" positionMode="0" positionLock="true" x="81.6511" y="153.42" visibility="1" zValue="6" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="29.8332" outlineWidth="0.3" excludeFromExports="0" uuid="{a38c45e5-792b-40e6-b6ed-6943ba82fcbc}" height="37" itemRotation="0" frame="false" pagex="81.6511">
           <FrameColor alpha="255" red="0" blue="0" green="0"/>
           <BackgroundColor alpha="255" red="1" blue="30" green="23"/>
           <customproperties/>
         </ComposerItem>
       </ComposerMap>
       <ComposerMap followPreset="false" mapRotation="0" keepLayerSet="false" followPresetName="" id="1" previewMode="Cache" drawCanvasItems="true">
-        <Extent ymin="2111321.99227662198245525" xmin="-5108162.06502471957355738" ymax="4905147.3464365852996707" xmax="-1848139.64669949607923627"/>
+        <Extent ymin="2111321.99227662198245525" xmin="-5108162.06502471957355738" ymax="4905147.34643658436834812" xmax="-1848139.64669949607923627"/>
         <LayerSet/>
         <Grid/>
         <AtlasMap scalingMode="2" atlasDriven="0" margin="0.10000000000000001"/>
-        <ComposerItem pagey="144.42" page="1" id="" lastValidViewScaleFactor="2.31327" positionMode="0" positionLock="true" x="10.4063" y="144.42" visibility="1" zValue="5" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="65.3749" outlineWidth="0.3" excludeFromExports="0" uuid="{be68b419-2016-4fbf-85a7-77c041d45738}" height="56.026" itemRotation="0" frame="false" pagex="10.4063">
+        <ComposerItem pagey="138.42" page="1" id="" lastValidViewScaleFactor="2.31327" positionMode="0" positionLock="true" x="10.4063" y="138.42" visibility="1" zValue="5" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="65.3749" outlineWidth="0.3" excludeFromExports="0" uuid="{be68b419-2016-4fbf-85a7-77c041d45738}" height="56.026" itemRotation="0" frame="false" pagex="10.4063">
           <FrameColor alpha="255" red="0" blue="0" green="0"/>
           <BackgroundColor alpha="255" red="1" blue="30" green="23"/>
           <customproperties/>
@@ -163,8 +173,8 @@
           <layer pass="0" class="GradientFill" locked="0">
             <prop k="angle" v="90"/>
             <prop k="color" v="255,255,255,255"/>
-            <prop k="color1" v="13,8,135,255"/>
-            <prop k="color2" v="240,249,33,255"/>
+            <prop k="color1" v="215,25,28,255"/>
+            <prop k="color2" v="43,131,186,255"/>
             <prop k="color_type" v="1"/>
             <prop k="coordinate_mode" v="0"/>
             <prop k="discrete" v="0"/>
@@ -177,7 +187,7 @@
             <prop k="reference_point2" v="0.5,1"/>
             <prop k="reference_point2_iscentroid" v="0"/>
             <prop k="spread" v="0"/>
-            <prop k="stops" v="0.0196078;27,6,141,255:0.0392157;38,5,145,255:0.0588235;47,5,150,255:0.0784314;56,4,154,255:0.0980392;65,4,157,255:0.117647;73,3,160,255:0.137255;81,2,163,255:0.156863;89,1,165,255:0.176471;97,0,167,255:0.196078;105,0,168,255:0.215686;113,0,168,255:0.235294;120,1,168,255:0.254902;128,4,168,255:0.27451;135,7,166,255:0.294118;142,12,164,255:0.313725;149,17,161,255:0.333333;156,23,158,255:0.352941;162,29,154,255:0.372549;168,34,150,255:0.392157;174,40,146,255:0.411765;180,46,141,255:0.431373;186,51,136,255:0.45098;191,57,132,255:0.470588;196,62,127,255:0.490196;201,68,122,255:0.509804;205,74,118,255:0.529412;210,79,113,255:0.54902;214,85,109,255:0.568627;218,91,105,255:0.588235;222,97,100,255:0.607843;226,102,96,255:0.627451;230,108,92,255:0.647059;233,114,87,255:0.666667;237,121,83,255:0.686275;240,127,79,255:0.705882;243,133,75,255:0.72549;245,140,70,255:0.745098;247,147,66,255:0.764706;249,154,62,255:0.784314;251,161,57,255:0.803922;252,168,53,255:0.823529;253,175,49,255:0.843137;254,183,45,255:0.862745;254,190,42,255:0.882353;253,198,39,255:0.901961;252,206,37,255:0.921569;251,215,36,255:0.941176;248,223,37,255:0.960784;246,232,38,255:0.980392;243,240,39,255"/>
+            <prop k="stops" v="0.25;253,174,97,255:0.5;255,255,191,255:0.75;171,221,164,255"/>
             <prop k="type" v="0"/>
             <effect enabled="0" type="effectStack">
               <effect type="dropShadow">
@@ -243,7 +253,7 @@
             </effect>
           </layer>
         </symbol>
-        <ComposerItem pagey="200.446" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="279.419" y="200.446" visibility="1" zValue="3" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="49.0647" outlineWidth="0.3" excludeFromExports="0" uuid="{4f28a357-42c9-43ba-a21f-3f875ea2c97c}" height="8.21346" itemRotation="270" frame="false" pagex="279.419">
+        <ComposerItem pagey="200.446" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="true" x="279.419" y="200.446" visibility="1" zValue="3" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="49.0647" outlineWidth="0.3" excludeFromExports="0" uuid="{4f28a357-42c9-43ba-a21f-3f875ea2c97c}" height="8.21346" itemRotation="270" frame="false" pagex="279.419">
           <FrameColor alpha="255" red="0" blue="0" green="0"/>
           <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
           <customproperties/>
@@ -339,12 +349,12 @@
           <symbol alpha="1" clip_to_extent="1" type="fill" name="0">
             <layer pass="0" class="SimpleFill" locked="0">
               <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="color" v="0,80,99,255"/>
+              <prop k="color" v="255,188,19,255"/>
               <prop k="joinstyle" v="bevel"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
               <prop k="offset_unit" v="MM"/>
-              <prop k="outline_color" v="0,123,145,255"/>
+              <prop k="outline_color" v="255,255,255,255"/>
               <prop k="outline_style" v="solid"/>
               <prop k="outline_width" v="0.2"/>
               <prop k="outline_width_unit" v="MM"/>
@@ -623,6 +633,424 @@ def my_form_open(dialog, layer, feature):
         <default field="ALAND" expression=""/>
         <default field="AWATER" expression=""/>
         <default field="orig_ogc_fid" expression=""/>
+      </defaults>
+      <previewExpression></previewExpression>
+    </maplayer>
+    <maplayer simplifyAlgorithm="0" minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" readOnly="0" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
+      <extent>
+        <xmin>-176.68471199999999044</xmin>
+        <ymin>-14.37373999999999974</ymin>
+        <xmax>145.83041800000000876</xmax>
+        <ymax>71.34122299999999939</ymax>
+      </extent>
+      <id>cb_2017_us_zcta510_500k20181208155255792</id>
+      <datasource>../code/data/cb_2017_us_zcta510_500k</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>cb_2017_us_zcta510_500k</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=longlat +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +no_defs</proj4>
+          <srsid>3401</srsid>
+          <srid>4269</srid>
+          <authid>EPSG:4269</authid>
+          <description>NAD83</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>GRS80</ellipsoidacronym>
+          <geographicflag>true</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <provider encoding="System">ogr</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <expressionfields/>
+      <map-layer-style-manager current="">
+        <map-layer-style name=""/>
+      </map-layer-style-manager>
+      <edittypes>
+        <edittype widgetv2type="TextEdit" name="ZCTA5CE10">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="AFFGEOID10">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="GEOID10">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="ALAND10">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="AWATER10">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+      </edittypes>
+      <renderer-v2 attr="ALAND10" forceraster="0" symbollevels="0" type="graduatedSymbol" graduatedMethod="GraduatedColor" enableorderby="0">
+        <ranges>
+          <range render="true" symbol="0" lower="5094.000000000000000" upper="15709895.600000001490116" label=" 5094 - 15709896 "/>
+          <range render="true" symbol="1" lower="15709895.600000001490116" upper="60829119.800000011920929" label=" 15709896 - 60829120 "/>
+          <range render="true" symbol="2" lower="60829119.800000011920929" upper="132419763.199999988079071" label=" 60829120 - 132419763 "/>
+          <range render="true" symbol="3" lower="132419763.199999988079071" upper="279928258.000000000000000" label=" 132419763 - 279928258 "/>
+          <range render="true" symbol="4" lower="279928258.000000000000000" upper="34881050142.000000000000000" label=" 279928258 - 34881050142 "/>
+        </ranges>
+        <symbols>
+          <symbol alpha="1" clip_to_extent="1" type="fill" name="0">
+            <layer pass="0" class="SimpleFill" locked="0">
+              <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="color" v="215,25,28,255"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="255,255,255,255"/>
+              <prop k="outline_style" v="no"/>
+              <prop k="outline_width" v="0.1"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="style" v="solid"/>
+            </layer>
+          </symbol>
+          <symbol alpha="1" clip_to_extent="1" type="fill" name="1">
+            <layer pass="0" class="SimpleFill" locked="0">
+              <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="color" v="253,174,97,255"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="255,255,255,255"/>
+              <prop k="outline_style" v="no"/>
+              <prop k="outline_width" v="0.1"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="style" v="solid"/>
+            </layer>
+          </symbol>
+          <symbol alpha="1" clip_to_extent="1" type="fill" name="2">
+            <layer pass="0" class="SimpleFill" locked="0">
+              <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="color" v="255,255,191,255"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="255,255,255,255"/>
+              <prop k="outline_style" v="no"/>
+              <prop k="outline_width" v="0.1"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="style" v="solid"/>
+            </layer>
+          </symbol>
+          <symbol alpha="1" clip_to_extent="1" type="fill" name="3">
+            <layer pass="0" class="SimpleFill" locked="0">
+              <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="color" v="171,221,164,255"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="255,255,255,255"/>
+              <prop k="outline_style" v="no"/>
+              <prop k="outline_width" v="0.1"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="style" v="solid"/>
+            </layer>
+          </symbol>
+          <symbol alpha="1" clip_to_extent="1" type="fill" name="4">
+            <layer pass="0" class="SimpleFill" locked="0">
+              <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="color" v="43,131,186,255"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="255,255,255,255"/>
+              <prop k="outline_style" v="no"/>
+              <prop k="outline_width" v="0.1"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="style" v="solid"/>
+            </layer>
+          </symbol>
+        </symbols>
+        <source-symbol>
+          <symbol alpha="1" clip_to_extent="1" type="fill" name="0">
+            <layer pass="0" class="SimpleFill" locked="0">
+              <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="color" v="0,80,99,255"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="255,255,255,255"/>
+              <prop k="outline_style" v="no"/>
+              <prop k="outline_width" v="0.1"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="style" v="solid"/>
+            </layer>
+          </symbol>
+        </source-symbol>
+        <colorramp type="gradient" name="[source]">
+          <prop k="color1" v="215,25,28,255"/>
+          <prop k="color2" v="43,131,186,255"/>
+          <prop k="discrete" v="0"/>
+          <prop k="stops" v="0.25;253,174,97,255:0.5;255,255,191,255:0.75;171,221,164,255"/>
+        </colorramp>
+        <invertedcolorramp value="0"/>
+        <mode name="quantile"/>
+        <rotation/>
+        <sizescale scalemethod="diameter"/>
+        <labelformat format=" %1 - %2 " trimtrailingzeroes="false" decimalplaces="0"/>
+      </renderer-v2>
+      <labeling type="simple"/>
+      <customproperties>
+        <property key="embeddedWidgets/count" value="0"/>
+        <property key="labeling" value="pal"/>
+        <property key="labeling/addDirectionSymbol" value="false"/>
+        <property key="labeling/angleOffset" value="0"/>
+        <property key="labeling/blendMode" value="0"/>
+        <property key="labeling/bufferBlendMode" value="0"/>
+        <property key="labeling/bufferColorA" value="255"/>
+        <property key="labeling/bufferColorB" value="255"/>
+        <property key="labeling/bufferColorG" value="255"/>
+        <property key="labeling/bufferColorR" value="255"/>
+        <property key="labeling/bufferDraw" value="false"/>
+        <property key="labeling/bufferJoinStyle" value="128"/>
+        <property key="labeling/bufferNoFill" value="false"/>
+        <property key="labeling/bufferSize" value="1"/>
+        <property key="labeling/bufferSizeInMapUnits" value="false"/>
+        <property key="labeling/bufferSizeMapUnitScale" value="0,0,0,0,0,0"/>
+        <property key="labeling/bufferTransp" value="0"/>
+        <property key="labeling/centroidInside" value="false"/>
+        <property key="labeling/centroidWhole" value="false"/>
+        <property key="labeling/decimals" value="3"/>
+        <property key="labeling/displayAll" value="false"/>
+        <property key="labeling/dist" value="0"/>
+        <property key="labeling/distInMapUnits" value="false"/>
+        <property key="labeling/distMapUnitScale" value="0,0,0,0,0,0"/>
+        <property key="labeling/drawLabels" value="false"/>
+        <property key="labeling/enabled" value="false"/>
+        <property key="labeling/fieldName" value=""/>
+        <property key="labeling/fitInPolygonOnly" value="false"/>
+        <property key="labeling/fontCapitals" value="0"/>
+        <property key="labeling/fontFamily" value="Ubuntu"/>
+        <property key="labeling/fontItalic" value="true"/>
+        <property key="labeling/fontLetterSpacing" value="0"/>
+        <property key="labeling/fontLimitPixelSize" value="false"/>
+        <property key="labeling/fontMaxPixelSize" value="10000"/>
+        <property key="labeling/fontMinPixelSize" value="3"/>
+        <property key="labeling/fontSize" value="11"/>
+        <property key="labeling/fontSizeInMapUnits" value="false"/>
+        <property key="labeling/fontSizeMapUnitScale" value="0,0,0,0,0,0"/>
+        <property key="labeling/fontStrikeout" value="false"/>
+        <property key="labeling/fontUnderline" value="false"/>
+        <property key="labeling/fontWeight" value="50"/>
+        <property key="labeling/fontWordSpacing" value="0"/>
+        <property key="labeling/formatNumbers" value="false"/>
+        <property key="labeling/isExpression" value="true"/>
+        <property key="labeling/labelOffsetInMapUnits" value="true"/>
+        <property key="labeling/labelOffsetMapUnitScale" value="0,0,0,0,0,0"/>
+        <property key="labeling/labelPerPart" value="false"/>
+        <property key="labeling/leftDirectionSymbol" value="&lt;"/>
+        <property key="labeling/limitNumLabels" value="false"/>
+        <property key="labeling/maxCurvedCharAngleIn" value="25"/>
+        <property key="labeling/maxCurvedCharAngleOut" value="-25"/>
+        <property key="labeling/maxNumLabels" value="2000"/>
+        <property key="labeling/mergeLines" value="false"/>
+        <property key="labeling/minFeatureSize" value="0"/>
+        <property key="labeling/multilineAlign" value="4294967295"/>
+        <property key="labeling/multilineHeight" value="1"/>
+        <property key="labeling/namedStyle" value="Italic"/>
+        <property key="labeling/obstacle" value="true"/>
+        <property key="labeling/obstacleFactor" value="1"/>
+        <property key="labeling/obstacleType" value="0"/>
+        <property key="labeling/offsetType" value="0"/>
+        <property key="labeling/placeDirectionSymbol" value="0"/>
+        <property key="labeling/placement" value="1"/>
+        <property key="labeling/placementFlags" value="10"/>
+        <property key="labeling/plussign" value="false"/>
+        <property key="labeling/predefinedPositionOrder" value="TR,TL,BR,BL,R,L,TSR,BSR"/>
+        <property key="labeling/preserveRotation" value="true"/>
+        <property key="labeling/previewBkgrdColor" value="#ffffff"/>
+        <property key="labeling/priority" value="5"/>
+        <property key="labeling/quadOffset" value="4"/>
+        <property key="labeling/repeatDistance" value="0"/>
+        <property key="labeling/repeatDistanceMapUnitScale" value="0,0,0,0,0,0"/>
+        <property key="labeling/repeatDistanceUnit" value="1"/>
+        <property key="labeling/reverseDirectionSymbol" value="false"/>
+        <property key="labeling/rightDirectionSymbol" value=">"/>
+        <property key="labeling/scaleMax" value="10000000"/>
+        <property key="labeling/scaleMin" value="1"/>
+        <property key="labeling/scaleVisibility" value="false"/>
+        <property key="labeling/shadowBlendMode" value="6"/>
+        <property key="labeling/shadowColorB" value="0"/>
+        <property key="labeling/shadowColorG" value="0"/>
+        <property key="labeling/shadowColorR" value="0"/>
+        <property key="labeling/shadowDraw" value="false"/>
+        <property key="labeling/shadowOffsetAngle" value="135"/>
+        <property key="labeling/shadowOffsetDist" value="1"/>
+        <property key="labeling/shadowOffsetGlobal" value="true"/>
+        <property key="labeling/shadowOffsetMapUnitScale" value="0,0,0,0,0,0"/>
+        <property key="labeling/shadowOffsetUnits" value="1"/>
+        <property key="labeling/shadowRadius" value="1.5"/>
+        <property key="labeling/shadowRadiusAlphaOnly" value="false"/>
+        <property key="labeling/shadowRadiusMapUnitScale" value="0,0,0,0,0,0"/>
+        <property key="labeling/shadowRadiusUnits" value="1"/>
+        <property key="labeling/shadowScale" value="100"/>
+        <property key="labeling/shadowTransparency" value="30"/>
+        <property key="labeling/shadowUnder" value="0"/>
+        <property key="labeling/shapeBlendMode" value="0"/>
+        <property key="labeling/shapeBorderColorA" value="255"/>
+        <property key="labeling/shapeBorderColorB" value="128"/>
+        <property key="labeling/shapeBorderColorG" value="128"/>
+        <property key="labeling/shapeBorderColorR" value="128"/>
+        <property key="labeling/shapeBorderWidth" value="0"/>
+        <property key="labeling/shapeBorderWidthMapUnitScale" value="0,0,0,0,0,0"/>
+        <property key="labeling/shapeBorderWidthUnits" value="1"/>
+        <property key="labeling/shapeDraw" value="false"/>
+        <property key="labeling/shapeFillColorA" value="255"/>
+        <property key="labeling/shapeFillColorB" value="255"/>
+        <property key="labeling/shapeFillColorG" value="255"/>
+        <property key="labeling/shapeFillColorR" value="255"/>
+        <property key="labeling/shapeJoinStyle" value="64"/>
+        <property key="labeling/shapeOffsetMapUnitScale" value="0,0,0,0,0,0"/>
+        <property key="labeling/shapeOffsetUnits" value="1"/>
+        <property key="labeling/shapeOffsetX" value="0"/>
+        <property key="labeling/shapeOffsetY" value="0"/>
+        <property key="labeling/shapeRadiiMapUnitScale" value="0,0,0,0,0,0"/>
+        <property key="labeling/shapeRadiiUnits" value="1"/>
+        <property key="labeling/shapeRadiiX" value="0"/>
+        <property key="labeling/shapeRadiiY" value="0"/>
+        <property key="labeling/shapeRotation" value="0"/>
+        <property key="labeling/shapeRotationType" value="0"/>
+        <property key="labeling/shapeSVGFile" value=""/>
+        <property key="labeling/shapeSizeMapUnitScale" value="0,0,0,0,0,0"/>
+        <property key="labeling/shapeSizeType" value="0"/>
+        <property key="labeling/shapeSizeUnits" value="1"/>
+        <property key="labeling/shapeSizeX" value="0"/>
+        <property key="labeling/shapeSizeY" value="0"/>
+        <property key="labeling/shapeTransparency" value="0"/>
+        <property key="labeling/shapeType" value="0"/>
+        <property key="labeling/substitutions" value="&lt;substitutions/>"/>
+        <property key="labeling/textColorA" value="255"/>
+        <property key="labeling/textColorB" value="0"/>
+        <property key="labeling/textColorG" value="0"/>
+        <property key="labeling/textColorR" value="0"/>
+        <property key="labeling/textTransp" value="0"/>
+        <property key="labeling/upsidedownLabels" value="0"/>
+        <property key="labeling/useSubstitutions" value="false"/>
+        <property key="labeling/wrapChar" value=""/>
+        <property key="labeling/xOffset" value="0"/>
+        <property key="labeling/yOffset" value="0"/>
+        <property key="labeling/zIndex" value="0"/>
+        <property key="variableNames"/>
+        <property key="variableValues"/>
+      </customproperties>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerTransparency>0</layerTransparency>
+      <displayfield>AFFGEOID10</displayfield>
+      <label>0</label>
+      <labelattributes>
+        <label fieldname="" text="Label"/>
+        <family fieldname="" name="Ubuntu"/>
+        <size fieldname="" units="pt" value="12"/>
+        <bold fieldname="" on="0"/>
+        <italic fieldname="" on="0"/>
+        <underline fieldname="" on="0"/>
+        <strikeout fieldname="" on="0"/>
+        <color fieldname="" red="0" blue="0" green="0"/>
+        <x fieldname=""/>
+        <y fieldname=""/>
+        <offset x="0" y="0" units="pt" yfieldname="" xfieldname=""/>
+        <angle fieldname="" value="0" auto="0"/>
+        <alignment fieldname="" value="center"/>
+        <buffercolor fieldname="" red="255" blue="255" green="255"/>
+        <buffersize fieldname="" units="pt" value="1"/>
+        <bufferenabled fieldname="" on=""/>
+        <multilineenabled fieldname="" on=""/>
+        <selectedonly on=""/>
+      </labelattributes>
+      <SingleCategoryDiagramRenderer diagramType="Histogram" sizeLegend="0" attributeLegend="1">
+        <DiagramCategory penColor="#000000" labelPlacementMethod="XHeight" penWidth="0" diagramOrientation="Up" sizeScale="0,0,0,0,0,0" minimumSize="0" barWidth="5" penAlpha="255" maxScaleDenominator="1e+08" backgroundColor="#ffffff" transparency="0" width="15" scaleDependency="Area" backgroundAlpha="255" angleOffset="1440" scaleBasedVisibility="0" enabled="0" height="15" lineSizeScale="0,0,0,0,0,0" sizeType="MM" lineSizeType="MM" minScaleDenominator="inf">
+          <fontProperties description="Ubuntu,11,-1,5,50,0,0,0,0,0" style=""/>
+        </DiagramCategory>
+        <symbol alpha="1" clip_to_extent="1" type="marker" name="sizeSymbol">
+          <layer pass="0" class="SimpleMarker" locked="0">
+            <prop k="angle" v="0"/>
+            <prop k="color" v="255,0,0,255"/>
+            <prop k="horizontal_anchor_point" v="1"/>
+            <prop k="joinstyle" v="bevel"/>
+            <prop k="name" v="circle"/>
+            <prop k="offset" v="0,0"/>
+            <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+            <prop k="offset_unit" v="MM"/>
+            <prop k="outline_color" v="0,0,0,255"/>
+            <prop k="outline_style" v="solid"/>
+            <prop k="outline_width" v="0"/>
+            <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
+            <prop k="outline_width_unit" v="MM"/>
+            <prop k="scale_method" v="diameter"/>
+            <prop k="size" v="2"/>
+            <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
+            <prop k="size_unit" v="MM"/>
+            <prop k="vertical_anchor_point" v="1"/>
+          </layer>
+        </symbol>
+      </SingleCategoryDiagramRenderer>
+      <DiagramLayerSettings yPosColumn="-1" showColumn="-1" linePlacementFlags="10" placement="0" dist="0" xPosColumn="-1" priority="0" obstacle="0" zIndex="0" showAll="1"/>
+      <annotationform></annotationform>
+      <aliases>
+        <alias field="ZCTA5CE10" index="0" name=""/>
+        <alias field="AFFGEOID10" index="1" name=""/>
+        <alias field="GEOID10" index="2" name=""/>
+        <alias field="ALAND10" index="3" name=""/>
+        <alias field="AWATER10" index="4" name=""/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <attributeactions default="-1"/>
+      <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="909129780">
+        <columns>
+          <column width="-1" hidden="0" type="field" name="ZCTA5CE10"/>
+          <column width="-1" hidden="0" type="field" name="AFFGEOID10"/>
+          <column width="-1" hidden="0" type="field" name="GEOID10"/>
+          <column width="-1" hidden="0" type="field" name="ALAND10"/>
+          <column width="-1" hidden="0" type="field" name="AWATER10"/>
+          <column width="-1" hidden="1" type="actions"/>
+        </columns>
+      </attributetableconfig>
+      <editform></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[# -*- coding: utf-8 -*-
+"""
+QGIS forms can have a Python function that is called when the form is
+opened.
+
+Use this function to add extra logic to your forms.
+
+Enter the name of the function in the "Python Init function"
+field.
+An example follows:
+"""
+from qgis.PyQt.QtWidgets import QWidget
+
+def my_form_open(dialog, layer, feature):
+	geom = feature.geometry()
+	control = dialog.findChild(QWidget, "MyLineEdit")
+]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <widgets/>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <defaults>
+        <default field="ZCTA5CE10" expression=""/>
+        <default field="AFFGEOID10" expression=""/>
+        <default field="GEOID10" expression=""/>
+        <default field="ALAND10" expression=""/>
+        <default field="AWATER10" expression=""/>
       </defaults>
       <previewExpression></previewExpression>
     </maplayer>
